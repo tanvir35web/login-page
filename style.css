@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0e0f22;
+    color: aliceblue;
+}
+
+body {
+    background: url(./images/lucas-kapla-R79qkPYvrcM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+nav.menu .left {
+    font-size: 1.5rem;
+}
+
+nav.menu .right {
+    font-size: 1.3rem;
+}
+
+nav.menu .right a {
+    text-decoration: none;
+    margin-right: 3rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: aliceblue;
+    transition: all 0.3s ease;
+
+}
+
+nav.menu .right a:hover{
+    border-radius: 1rem;
+    padding: .3rem 1rem;
+    border: 1px solid transparent; 
+    background: linear-gradient(#0E0F22, #0E0F22) padding-box,
+    linear-gradient(to right, rgb(163, 0, 0), purple) border-box;
+}
+
+
+.hero .left-icon {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .left-icon i:hover {
+    
+    color: rgb(161, 0, 0)
+}
+
+.hero .left-icon i {
+    margin-top: 2rem;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8rem;
+}
+
+.hero .middle {
+    padding: 2rem 2rem;
+    backdrop-filter: blur(9px);
+    border: 1px solid rgb(90, 0, 0);
+    border-radius: 2rem;
+    margin: 15rem 7rem;
+}
+
+.hero .middle h1 {
+    font-size: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.hero .middle h2 {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.hero .middle p {
+    font-size: 1rem;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+.hero .middle button {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    font-weight: 500;
+    background: linear-gradient(to right, red, purple);
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease;
+}
+
+.hero .middle button:hover {
+    border: 1px solid transparent; 
+    background: linear-gradient(#0E0F22, #0E0F22) padding-box,
+    linear-gradient(to right, rgb(163, 0, 0), purple) border-box;
+
+    
+}
+
+.hero .right img {
+    
+    border: 5px solid transparent; 
+    background: linear-gradient(#0E0F22, #0E0F22) padding-box,
+    linear-gradient(to right, rgb(163, 0, 0), purple) border-box;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.glow-effect {
+    width: 200px;
+    height: 100px;
+    background-color: #0074d9;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    animation: glow 2s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px #0074d9, 0 0 20px #0074d9, 0 0 30px #0074d9;
+    }
+    100% {
+      box-shadow: 0 0 20px #0074d9, 0 0 40px #0074d9, 0 0 60px #0074d9;
+    }
+  }
+  
+
+
