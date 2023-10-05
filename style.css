@@ -35,7 +35,7 @@ nav.menu .left {
 nav.menu .right {
     font-size: 1.3rem;
 }
-.
+
 
 nav.menu .right a {
     text-decoration: none;
@@ -44,7 +44,6 @@ nav.menu .right a {
     font-weight: 500;
     color: aliceblue;
     transition: all 0.3s ease;
-
 }
 
 nav.menu .right a:hover{
@@ -133,26 +132,6 @@ nav.menu .right a:hover{
     
 }
 
-.glow-effect {
-    width: 200px;
-    height: 100px;
-    background-color: #0074d9;
-    color: white;
-    text-align: center;
-    line-height: 100px;
-    font-size: 18px;
-    border-radius: 10px;
-    animation: glow 2s infinite alternate;
-  }
-  
-  @keyframes glow {
-    0% {
-      box-shadow: 0 0 10px #0074d9, 0 0 20px #0074d9, 0 0 30px #0074d9;
-    }
-    100% {
-      box-shadow: 0 0 20px #0074d9, 0 0 40px #0074d9, 0 0 60px #0074d9;
-    }
-  }
   
 
 
